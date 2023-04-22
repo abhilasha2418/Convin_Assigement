@@ -7,7 +7,7 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import Flow
 
 
-CLIENT_SECRETS_FILE = '/home/katniss/convin/GcalenderIntegration/app/credentials.json'
+CLIENT_SECRETS_FILE = '/path/to/credentials.json'
 
 # Define redirect URI for OAuth2
 REDIRECT_URI = 'http://localhost:3000/rest/v1/calendar/redirect/'
